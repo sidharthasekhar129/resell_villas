@@ -1,24 +1,26 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import AuthProvider from "./provider/AuthProvider";
+import Routesx from "./routes/routes";
+import AdminState from "./provider/AdminProvider";
+import MessageState from "./provider/MessageProvider";
+
+ import AssetState from "./provider/AssetProvider";
+// import GalleryState from "./provider/GalleryProvider";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <AuthProvider>
+      <AdminState>
+        <AssetState>
+          {/* <GalleryState> */}
+          <MessageState>
+            <Routesx />
+          </MessageState>
+
+          {/* </GalleryState> */}
+        </AssetState>
+      </AdminState>
+    </AuthProvider>
   );
 }
 

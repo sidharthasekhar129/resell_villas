@@ -3,12 +3,47 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@emotion/react": "^11.13.3",
+    "@emotion/styled": "^11.13.0",
+    "@heroicons/react": "^2.1.5",
+    "@mui/icons-material": "^6.0.2",
+    "@mui/material": "^6.0.2",
+    "@radix-ui/react-dialog": "^1.1.1",
+    "@radix-ui/react-select": "^2.1.1",
+    "@radix-ui/react-tabs": "^1.1.0",
+    "@react-google-maps/api": "^2.19.3",
+    "@tailwindcss/forms": "^0.5.9",
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
+    "firebase": "^9.15.0",
+    "flowbite": "^2.5.1",
+    "flowbite-react": "^0.10.1",
+    "framer-motion": "^11.5.4",
+    "moment": "^2.30.1",
+    "otp-input-react": "^0.3.0",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
+    "react-hot-toast": "^2.4.1",
+    "react-icons": "^5.3.0",
+    "react-pdf": "^9.1.0",
+    "react-player": "^2.16.0",
+    "react-router-dom": "^6.26.1",
     "react-scripts": "5.0.1",
+    "react-scroll": "^1.9.0",
+    "react-select": "^5.8.0",
+    "react-slick": "^0.30.2",
+    "react-slider": "^2.0.6",
+    "react-switch": "^7.0.0",
+    "react-toastify": "^10.0.5",
+    "sitemap": "^8.0.0",
+    "slick-carousel": "^1.8.1",
+    "socket.io-client": "^4.7.5",
+    "spinners-react": "^1.0.7",
+    "swiper": "^11.1.12",
+    "autoprefixer": "^10.4.20",
+    "postcss": "^8.4.45",
+    "tailwindcss": "^3.4.7",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
@@ -34,5 +69,10 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.20",
+    "postcss": "^8.4.45",
+    "tailwindcss": "^3.4.7"
   }
 }

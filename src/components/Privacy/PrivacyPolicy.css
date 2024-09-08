@@ -1,0 +1,31 @@
+.privacy-policy {
+    padding: 20px;
+    padding-left: 15vw;
+    padding-right: 15vw;
+    font-family: Arial, sans-serif;
+}
+
+.privacy-policy h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.privacy-policy h2 {
+    margin-top: 20px;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 5px;
+    font-weight: bold;
+}
+
+.privacy-policy p {
+    margin: 10px 0;
+}
+
+.privacy-policy ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.privacy-policy ul li {
+    margin: 5px 0;
+}
